@@ -1,0 +1,196 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(0,73, 174);
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-lf{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+
+}
+.nav-rh{
+    display: flex;
+    padding-right: 3.1rem;
+    align-items: center;
+
+}
+.nav-rh h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding-right: 1rem;
+}
+.gharlogos{
+    height: 50px;
+    width: 200px;
+}
+.asides{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0,73, 174);
+    color: white;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    padding-top: 1rem;
+    position: fixed;
+    
+
+}
+.admin-icon{
+    display: block;
+    margin: 1.5rem;
+}
+.admin-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-admin-b{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    
+}
+.admin-top-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.admin-card-1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(208, 199, 199);
+   border-radius: 3px;
+   justify-content: space-around;
+   margin: 10px;
+}
+.admin-card-title{
+    margin-left: 1rem;
+}
+.card-icons{
+display: flex;
+margin: 1.3rem;
+}
+.admin-chart{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+span p{
+    margin: 0 0;
+}
+.opt{
+    border: 1px solid blue;
+    color: blue;
+}
+.admin-table{
+    border: 1px solid rgb(208, 199, 199);
+    border-radius: 3px;
+    
+}
+.charts-title{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.admin-chart-1{
+    border: 1px solid rgb(208, 199, 199);
+    border-radius: 3px;
+    width: 45%;
+
+}
+
+  @media (max-width:896px) {
+   
+    .card-icons{
+    display: flex;
+    margin: 1.3rem;
+    }
+   
+    span p{
+        margin: 0 0;
+        font-size: 10px;
+    }
+    .opt{
+        border: 1px solid blue;
+        color: blue;
+    }
+    .admin-table{
+        border: 1px solid rgb(208, 199, 199);
+        border-radius: 3px;
+        
+    }
+   
+   
+    .admin-chart-1{
+        border: 1px solid rgb(208, 199, 199);
+        border-radius: 3px;
+        width: 46%;
+    
+    }
+    .admin-card-title h3{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 15px;
+    }
+  }
+  @media (max-width:700px){
+    .admin-card-title h3{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .admin-card-title p{
+        font-size: 7px;
+    }
+    h1{
+        font-size: 12px;
+        padding-top: 10px;
+
+    }
+    span p{
+        margin: 0 0;
+        font-size: 9px;
+    }
+  }
+  @media (max-width:627px){
+    .admin-card-title h3{
+        font-size: 10px;
+        padding-top: 8px;
+    }
+    .admin-chart{
+        display: flex;
+        flex-direction: column;
+    }
+    .admin-chart-1{
+        width: 70%;
+        padding-top: 12px;
+    }
+    .admin-card-title p{
+        font-size: 6px;
+    }
+    h1{
+        font-size: 10px;
+        padding-top: 8px;
+
+    }
+    span p{
+        margin: 0 0;
+        font-size: 7px;
+    }
+  }
